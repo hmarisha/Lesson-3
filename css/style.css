@@ -1,0 +1,77 @@
+/* Стили обнуления */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+/*-------------------------------------*/
+
+
+.header_list a {
+	color: red;
+}
+a.list_link {
+	color: springgreen;
+}
+#list_link_1 {
+	color: darkblue;
+}
+h1 {
+	color: rgb(250, 6, 217);
+}
+p {
+	color: red;
+}
+p a {
+	color: seagreen;
+}
+p mark {
+	color: slategrey;
+}
+h2 {
+	color: blue;
+}
+.subtitle {
+	color: rgb(8, 192, 248)
+}
+.block-2_list li {
+	color: greenyellow;
+}
+.block-2_list_2 li {
+	color: indigo;
+}
+.block-2_important {
+	color: yellow
+}
+.word-1,
+.word-2 {
+	color: lawngreen;
+}
+#footer_link {
+	color: rgb(226, 17, 226);
+}
